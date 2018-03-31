@@ -1,2 +1,2 @@
 <h1><%= @appointment.appointment_datetime.strftime("%B %d, %Y at %I:%M %p") %></h1>
-<h3><%= @appointment.doctor%> | <%= @appointment.patient %></h3>
+<h3><%= @appointment.doctor%> | <%= @appointment.patient.name %></h3>
