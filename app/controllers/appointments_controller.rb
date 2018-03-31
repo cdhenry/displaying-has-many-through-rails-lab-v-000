@@ -1,4 +1,4 @@
-class DoctorsController < ApplicationController
+class AppointmentsController < ApplicationController
   def show
     binding.pry
   end
