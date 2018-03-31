@@ -2,7 +2,7 @@
 <p>Appointments:<br>
   <ul>
     <% @doctor.appointments.each do |appointment| %>
-      <li><%= appointment.appointment_datetime %> | <%= link_to appointment.patient, appointments_path(appointment) %></li>
+      <li><%= appointment.appointment_datetime %> | <%= link_to appointment.patient, appointment_path(appointment) %></li>
     <% end %>
   </ul>
 </p>
